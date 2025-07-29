@@ -133,5 +133,105 @@ export const perguntas = [
       "O valor do polinômio em zero"
     ],
     respostaCorreta: 0
-  }
+  },
+  {
+  pergunta: "Qual é a forma polar de um número complexo?",
+  opcoes: [
+    "r(cos θ + i sen θ)",
+    "a + bi",
+    "x + yi",
+    "r + iθ"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "O que é o argumento de um número complexo?",
+  opcoes: [
+    "A distância até a origem",
+    "O ângulo formado com o eixo real",
+    "O módulo ao quadrado",
+    "A parte imaginária"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "Qual o resultado da soma de um número complexo com seu conjugado?",
+  opcoes: [
+    "2a",
+    "2b",
+    "0",
+    "a + bi"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Qual o resultado do produto de um número complexo pelo seu conjugado?",
+  opcoes: [
+    "a² + b²",
+    "a² - b²",
+    "ab",
+    "0"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Como se calcula o módulo de um número complexo na forma trigonométrica?",
+  opcoes: [
+    "r",
+    "θ",
+    "a + bi",
+    "cos θ"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "O que representa o módulo de um número complexo?",
+  opcoes: [
+    "Distância do ponto à origem no plano complexo",
+    "Parte real do número",
+    "Parte imaginária do número",
+    "Ângulo com o eixo imaginário"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Qual a propriedade do módulo do produto de dois números complexos?",
+  opcoes: [
+    "É igual ao produto dos módulos",
+    "É igual à soma dos módulos",
+    "É igual à diferença dos módulos",
+    "Não tem propriedade definida"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Qual é a forma padrão para expressar um polinômio?",
+  opcoes: [
+    "Somatório de coeficientes e variáveis com expoentes",
+    "Produto de fatores",
+    "Soma de raízes",
+    "Subtração de termos"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "O que é um polinômio de grau zero?",
+  opcoes: [
+    "Uma constante",
+    "Um termo linear",
+    "Um termo quadrático",
+    "Um polinômio nulo"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Quando um polinômio é considerado completo?",
+  opcoes: [
+    "Quando possui todos os termos desde o grau zero até o grau máximo",
+    "Quando tem coeficientes todos iguais a 1",
+    "Quando é fatorado em números primos",
+    "Quando possui apenas termos positivos"
+  ],
+  respostaCorreta: 0
+}
 ];

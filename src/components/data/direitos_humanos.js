@@ -248,5 +248,255 @@ export const perguntas = [
       "Sem papel legal"
     ],
     respostaCorreta: 2
-  }
+  },
+  {
+  pergunta: "Qual órgão tem o dever de promover políticas públicas para infância e adolescência?",
+  opcoes: [
+    "Conselho Escolar",
+    "Ministério Público",
+    "Poder Executivo",
+    "Sindicato dos Professores"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O direito à profissionalização deve ser assegurado a partir de qual idade?",
+  opcoes: [
+    "12 anos",
+    "14 anos na condição de aprendiz",
+    "16 anos com carteira assinada",
+    "18 anos completos"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "O que caracteriza um ato infracional segundo o ECA?",
+  opcoes: [
+    "Uma infração de trânsito",
+    "Um erro escolar",
+    "Uma conduta descrita como crime ou contravenção penal",
+    "Desobediência aos pais"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "A convivência comunitária está relacionada ao direito de:",
+  opcoes: [
+    "Viver isolado em casa",
+    "Estar sempre com a família biológica",
+    "Participar da vida social e comunitária",
+    "Estudar em casa"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "Segundo o ECA, a adoção deve assegurar:",
+  opcoes: [
+    "Preferência a casais estrangeiros",
+    "Rapidez acima de tudo",
+    "Interesse superior da criança",
+    "Evitar vínculo afetivo"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "Em caso de suspeita de violência, a escola deve:",
+  opcoes: [
+    "Ignorar",
+    "Esperar confirmação",
+    "Notificar ao Conselho Tutelar",
+    "Comunicar apenas aos pais"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O que é medida protetiva?",
+  opcoes: [
+    "Punição escolar",
+    "Intervenção do governo em políticas públicas",
+    "Ação para garantir direitos violados",
+    "Advertência verbal da família"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O direito à liberdade de expressão inclui:",
+  opcoes: [
+    "Agredir verbalmente os colegas",
+    "Opor-se a regras familiares",
+    "Opinar sobre assuntos que lhe dizem respeito",
+    "Faltar às aulas"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O direito à cultura está relacionado com:",
+  opcoes: [
+    "Somente artes visuais",
+    "Eventos religiosos obrigatórios",
+    "Acesso a diferentes manifestações culturais",
+    "Atividades esportivas"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "Quem pode ser punido por violar direitos previstos no ECA?",
+  opcoes: [
+    "Apenas o Estado",
+    "Apenas os pais",
+    "Qualquer pessoa ou instituição",
+    "Somente escolas particulares"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "Crianças e adolescentes podem participar da vida política?",
+  opcoes: [
+    "Sim, com voz ativa em conselhos e fóruns",
+    "Não, pois são menores de idade",
+    "Apenas com autorização judicial",
+    "Somente a partir dos 18 anos"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "A escuta protegida deve ocorrer:",
+  opcoes: [
+    "Somente no ambiente escolar",
+    "Com profissionais capacitados, em local adequado",
+    "Em qualquer lugar",
+    "Somente com os pais presentes"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "O ECA garante acesso à escola pública e gratuita:",
+  opcoes: [
+    "Somente para crianças pobres",
+    "Somente no ensino fundamental",
+    "Para todos, como direito básico",
+    "Apenas com boas notas"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O direito ao lazer é importante porque:",
+  opcoes: [
+    "É apenas recreativo",
+    "Substitui a educação",
+    "Favorece o desenvolvimento integral",
+    "Garante que as crianças não estudem demais"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "Quem são os responsáveis legais pela criança?",
+  opcoes: [
+    "Somente os avós",
+    "Pais ou responsáveis designados judicialmente",
+    "Irmãos mais velhos",
+    "Professores"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "A privação de liberdade de um adolescente deve ser:",
+  opcoes: [
+    "Sem limite de tempo",
+    "Aplicada sem necessidade de provas",
+    "Excepcional e pelo menor tempo possível",
+    "A regra em casos de brigas escolares"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "A institucionalização de uma criança deve ocorrer quando:",
+  opcoes: [
+    "Ela não quiser morar com os pais",
+    "For necessário por proteção e por tempo determinado",
+    "Não houver escola próxima",
+    "Os pais estiverem desempregados"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "O Conselho Tutelar pode aplicar:",
+  opcoes: [
+    "Medidas socioeducativas",
+    "Punições criminais",
+    "Medidas protetivas",
+    "Suspensão da guarda"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "A violência psicológica é caracterizada por:",
+  opcoes: [
+    "Exclusivamente agressão física",
+    "Palavras que humilham, ameaçam ou rejeitam",
+    "Castigos corporais severos",
+    "Negligência médica"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "O direito ao respeito implica em:",
+  opcoes: [
+    "Ser ouvido e valorizado",
+    "Fazer apenas o que deseja",
+    "Não ter obrigações escolares",
+    "Recusar qualquer orientação"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "Segundo o ECA, é proibido o trabalho:",
+  opcoes: [
+    "Em locais saudáveis",
+    "Durante a noite ou em locais perigosos, para menores de 18",
+    "Com carteira assinada a partir dos 14",
+    "Em qualquer condição até os 18 anos"
+  ],
+  respostaCorreta: 1
+},
+{
+  pergunta: "O direito à saúde inclui:",
+  opcoes: [
+    "Apenas atendimentos de emergência",
+    "Somente serviços particulares",
+    "Acesso universal e igualitário ao SUS",
+    "Vacinação opcional"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "O que garante a escuta qualificada de uma criança vítima de violência?",
+  opcoes: [
+    "Sigilo e cuidado com sua integridade",
+    "Divulgação do caso na mídia",
+    "Entrevista com a turma inteira",
+    "Registro automático no boletim escolar"
+  ],
+  respostaCorreta: 0
+},
+{
+  pergunta: "O papel da sociedade no ECA é:",
+  opcoes: [
+    "Ignorar denúncias",
+    "Esperar ação do governo",
+    "Proteger, denunciar violações e garantir direitos",
+    "Substituir o papel da família"
+  ],
+  respostaCorreta: 2
+},
+{
+  pergunta: "A educação infantil deve ser:",
+  opcoes: [
+    "Negociável entre escola e pais",
+    "Obrigatória a partir dos 6 anos",
+    "Opcional até os 10 anos",
+    "Direito garantido desde o nascimento até 5 anos"
+  ],
+  respostaCorreta: 3
+}
 ];

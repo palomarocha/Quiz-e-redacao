@@ -9,6 +9,7 @@ import { perguntas as racionais } from './components/data/matematica_racionais_r
 import { perguntas as docente } from './components/data/formacao_geral_docente';
 import { perguntas as direitos } from './components/data/direitos_humanos';
 import { perguntas as portugues } from './components/data/lingua_portuguesa';
+import { perguntas as raciocinio } from './components/data/raciocinio-logico.js';
 
 function App() {
   const [temaSelecionado, setTemaSelecionado] = useState(null);
@@ -20,33 +21,36 @@ function App() {
     'Formação Geral Docente': docente,
     'Direitos Humanos': direitos,
     'Língua Portuguesa': portugues,
+    'Raciocínio lógico': raciocinio,
     'Redação': null 
   };
 
   return (
     <div className="App">
-      {temaSelecionado === 'Redação' ? (
-        <>
-          <h1>Envie sua redação para correção:</h1>
-          <Redacao />
-          <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
-        </>
-      ) : temaSelecionado ? (
-        <>
-          <h1>Quiz: {temaSelecionado}</h1>
-          <Quiz perguntas={temas[temaSelecionado]} />
-          <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
-        </>
-      ) : (
-        <>
-          <h1>Escolha um tema para começar o quiz:</h1>
-          {Object.keys(temas).map((tema, index) => (
-            <button key={index} onClick={() => setTemaSelecionado(tema)}>
-              {tema}
-            </button>
-          ))}
-        </>
-      )}
+      <div className="content-container">
+        {temaSelecionado === 'Redação' ? (
+          <>
+            <h1>Envie sua redação para correção:</h1>
+            <Redacao />
+            <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
+          </>
+        ) : temaSelecionado ? (
+          <>
+            <h1>Quiz: {temaSelecionado}</h1>
+            <Quiz perguntas={temas[temaSelecionado]} />
+            <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
+          </>
+        ) : (
+          <>
+            <h1>Escolha um tema para começar o quiz:</h1>
+            {Object.keys(temas).map((tema, index) => (
+              <button key={index} onClick={() => setTemaSelecionado(tema)}>
+                {tema}
+              </button>
+            ))}
+          </>
+        )}
+      </div>
 
       <div className="social-icons">
         <a href="https://github.com/palomarocha" target="_blank" rel="noopener noreferrer">

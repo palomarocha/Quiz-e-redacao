@@ -229,4 +229,356 @@ export const perguntas = [
     ],
     respostaCorreta: 2
   }
+  [
+  {
+    pergunta: "Qual é a principal função do método científico na educação?",
+    opcoes: [
+      "Ensinar conteúdos memorizados",
+      "Desenvolver o pensamento crítico e a investigação",
+      "Controlar a disciplina em sala",
+      "Avaliar os alunos por provas"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Quem é considerado o pai da psicologia do desenvolvimento?",
+    opcoes: [
+      "Lev Vygotsky",
+      "Jean Piaget",
+      "Sigmund Freud",
+      "B.F. Skinner"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que significa a sigla EAD?",
+    opcoes: [
+      "Educação a Distância",
+      "Estudo Avançado Diário",
+      "Ensino Assistido Digital",
+      "Escola de Alta Dedicação"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Segundo a teoria sociocultural de Vygotsky, o aprendizado acontece principalmente por meio de:",
+    opcoes: [
+      "Experiências individuais isoladas",
+      "Interação social e mediação cultural",
+      "Memorização repetitiva",
+      "Reforço negativo"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que caracteriza a educação inclusiva?",
+    opcoes: [
+      "Separação de alunos com necessidades especiais",
+      "Adaptação do ensino para atender a todos os alunos",
+      "Ensino apenas para alunos com altas habilidades",
+      "Exclusão de alunos com dificuldades"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual o conceito central do construtivismo na educação?",
+    opcoes: [
+      "Aprender construindo conhecimento ativamente",
+      "Receber conhecimento passivamente",
+      "Repetição até decorar",
+      "Ensino baseado em castigos"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual o principal foco da educação infantil?",
+    opcoes: [
+      "Alfabetização precoce",
+      "Desenvolvimento integral da criança",
+      "Ensino de matemática",
+      "Preparação para o ensino médio"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é a idade mínima para matrícula na educação infantil no Brasil?",
+    opcoes: [
+      "0 anos (creche)",
+      "3 anos",
+      "6 anos",
+      "4 anos"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual documento oficial regulamenta a educação básica no Brasil?",
+    opcoes: [
+      "Constituição Federal",
+      "Base Nacional Comum Curricular (BNCC)",
+      "Estatuto da Criança e do Adolescente",
+      "Código Civil"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "A avaliação formativa tem como objetivo principal:",
+    opcoes: [
+      "Punir alunos com baixo desempenho",
+      "Monitorar o processo de aprendizagem para melhorias",
+      "Classificar os alunos em notas",
+      "Garantir aprovação automática"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual das alternativas melhor define a alfabetização?",
+    opcoes: [
+      "Aprender a ler e escrever",
+      "Estudar matemática básica",
+      "Aprender a soletrar palavras",
+      "Decorara textos"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que significa interdisciplinaridade no ensino?",
+    opcoes: [
+      "Separação das disciplinas",
+      "Integração de conteúdos de diferentes áreas",
+      "Ensino apenas de uma disciplina por vez",
+      "Foco somente em matemática e português"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que é educação formal?",
+    opcoes: [
+      "Educação em casa",
+      "Ensino oferecido em escolas e universidades",
+      "Ensino por meio de vídeos e internet",
+      "Aprendizagem na rua"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual foi a principal inovação trazida pela BNCC?",
+    opcoes: [
+      "Conteúdos obrigatórios para todo o país",
+      "Flexibilização total dos currículos",
+      "Fim da educação física nas escolas",
+      "Eliminação da avaliação"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Quem foi Maria Montessori?",
+    opcoes: [
+      "Uma filósofa da antiguidade",
+      "Educadora que desenvolveu método pedagógico centrado na criança",
+      "Escritora de livros didáticos",
+      "Psicóloga comportamental"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que é a aprendizagem significativa segundo Ausubel?",
+    opcoes: [
+      "Decorar informações para prova",
+      "Relacionar novos conhecimentos aos anteriores",
+      "Aprender por repetição",
+      "Ensinar conteúdos de forma isolada"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é o foco da educação popular segundo Paulo Freire?",
+    opcoes: [
+      "Reprodução do conhecimento oficial",
+      "Conscientização crítica e transformação social",
+      "Exclusão de conteúdos políticos",
+      "Ensino voltado apenas para elites"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que significa avaliação diagnóstica?",
+    opcoes: [
+      "Avaliar apenas o resultado final",
+      "Avaliar o conhecimento prévio para planejar ensino",
+      "Aplicar provas surpresas",
+      "Medir o comportamento dos alunos"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual a importância da diversidade cultural na escola?",
+    opcoes: [
+      "Garantir a exclusão de minorias",
+      "Promover respeito e valorização das diferenças",
+      "Uniformizar a cultura local",
+      "Evitar discussões sobre cultura"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que é currículo oculto?",
+    opcoes: [
+      "Conteúdo não planejado que os alunos aprendem na escola",
+      "Plano de aula oficial",
+      "Conteúdo da BNCC",
+      "Avaliação oficial"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual a função do planejamento pedagógico?",
+    opcoes: [
+      "Organizar conteúdos e estratégias de ensino",
+      "Controlar a frequência dos alunos",
+      "Aplicar provas com regularidade",
+      "Punir alunos"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que significa alfabetização digital?",
+    opcoes: [
+      "Saber usar computador e internet para aprender e comunicar",
+      "Fazer cursos de informática",
+      "Saber programar",
+      "Acessar redes sociais"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que caracteriza o ensino híbrido?",
+    opcoes: [
+      "Aulas só presenciais",
+      "Uso combinado de aulas presenciais e online",
+      "Ensino totalmente a distância",
+      "Sem uso de tecnologia"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que é uma competência na educação?",
+    opcoes: [
+      "Conhecimento teórico apenas",
+      "Conjunto de conhecimentos, habilidades e atitudes para resolver problemas",
+      "Decorar conteúdos",
+      "Aprovar em provas"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual a finalidade da educação ambiental?",
+    opcoes: [
+      "Preservar o meio ambiente e conscientizar para o desenvolvimento sustentável",
+      "Estudar biologia apenas",
+      "Plantar árvores",
+      "Ensinar sobre reciclagem somente"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Quem é Jean Piaget?",
+    opcoes: [
+      "Filósofo e educador que estudou o desenvolvimento cognitivo das crianças",
+      "Psicólogo comportamental",
+      "Educador popular brasileiro",
+      "Físico"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual o papel do professor na educação inclusiva?",
+    opcoes: [
+      "Excluir alunos com necessidades especiais",
+      "Adaptar o ensino para atender a todos os alunos",
+      "Tratar todos da mesma forma",
+      "Não se responsabilizar pela inclusão"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "Qual é a lei que regulamenta a educação especial no Brasil?",
+    opcoes: [
+      "Lei nº 13.146/2015 - Estatuto da Pessoa com Deficiência",
+      "Lei nº 10.639/2003",
+      "Lei nº 9.394/1996",
+      "Lei nº 8.069/1990"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que significa avaliação somativa?",
+    opcoes: [
+      "Avaliação para dar nota final e classificar alunos",
+      "Avaliação para planejar atividades",
+      "Avaliação informal",
+      "Avaliação para acompanhar o processo"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que é a interdisciplinaridade na educação?",
+    opcoes: [
+      "Uso de múltiplas disciplinas para abordar um tema de forma integrada",
+      "Ensino isolado das disciplinas",
+      "Avaliação separada para cada disciplina",
+      "Ensino de apenas uma disciplina por ano"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "O que é a avaliação formativa?",
+    opcoes: [
+      "Avaliação para acompanhar e melhorar o processo de aprendizagem",
+      "Avaliação para reprovar alunos",
+      "Prova final do semestre",
+      "Exame vestibular"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual a importância da mediação pedagógica?",
+    opcoes: [
+      "Impor regras na sala de aula",
+      "Facilitar a construção do conhecimento pelos alunos",
+      "Controlar o silêncio na sala",
+      "Dar aulas expositivas"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que significa EJA?",
+    opcoes: [
+      "Educação de Jovens e Adultos",
+      "Ensino para Jovens e Adolescentes",
+      "Educação Jurídica Avançada",
+      "Ensino Jovem Avançado"
+    ],
+    respostaCorreta: 0
+  },
+  {
+    pergunta: "Qual é o objetivo da educação básica no Brasil?",
+    opcoes: [
+      "Formar profissionais técnicos",
+      "Desenvolver competências para a vida e a cidadania",
+      "Preparar para o ensino superior",
+      "Ensinar conteúdos teóricos"
+    ],
+    respostaCorreta: 1
+  },
+  {
+    pergunta: "O que significa avaliação diagnóstica?",
+    opcoes: [
+      "Avaliar o conhecimento prévio dos alunos para planejar o ensino",
+      "Aplicar prova surpresa",
+      "Medir apenas o comportamento",
+      "Avaliar só o desempenho final"
+    ],
+    respostaCorreta: 0
+  }
+]
 ];
