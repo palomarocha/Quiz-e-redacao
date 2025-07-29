@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'vintage';
- src: url("../src/assets/fonts/Perfectly Vintages Font by Keithzo.otf");
+  src: url("../src/assets/fonts/Perfectly Vintages Font by Keithzo.otf");
 }
 
 @font-face {
@@ -32,6 +32,7 @@ body {
 }
 
 button {
+  color: #000000;
   margin: 6px 0;
   padding: 10px 15px;
   font-size: 1rem;
@@ -146,6 +147,34 @@ button.false {
   font-weight: 600;
 }
 
+.social-icons {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.social-icons a img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+
 @media screen and (max-width: 768px) {
   .App {
     width: 90vw;
@@ -165,9 +194,9 @@ button.false {
   .redacao-textarea {
     height: 200px;
     font-size: 14px;
-    color: black !important;
-    background-color: white !important;
-    caret-color: black !important;
+    color: #000000;
+    background-color: #ffffff;
+    caret-color: #000000;
   }
 
   .redacao-result {
@@ -178,11 +207,11 @@ button.false {
   button {
     font-size: 0.9rem;
     padding: 8px 12px;
-    color: black !important;
+    color: #000000;
   }
 
   .quiz h3 {
-    color: black !important;
+    color: #000000;
   }
 }
 
@@ -193,9 +222,9 @@ button.false {
 
   .redacao-textarea {
     height: 150px;
-    color: black !important;
-    background-color: white !important;
-    caret-color: black !important;
+    color: #000000;
+    background-color: #ffffff;
+    caret-color: #000000;
   }
 
   .redacao-result {
@@ -206,10 +235,10 @@ button.false {
   button {
     font-size: 0.85rem;
     padding: 7px 10px;
-    color: black !important;
+    color: #000000;
   }
 
   .quiz h3 {
-    color: black !important;
+    color: #000000;
   }
 }

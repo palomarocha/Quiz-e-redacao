@@ -23,34 +23,49 @@ function App() {
     'Redação': null 
   };
 
-  if (temaSelecionado === 'Redação') {
-    return (
-      <div className="App">
-        <h1>Envie sua redação para correção:</h1>
-        <Redacao />
-        <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
-      </div>
-    );
-  }
-
-  if (temaSelecionado) {
-    return (
-      <div className="App">
-        <h1>Quiz: {temaSelecionado}</h1>
-        <Quiz perguntas={temas[temaSelecionado]} />
-        <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
-      </div>
-    );
-  }
-
   return (
     <div className="App">
-      <h1>Escolha um tema para começar o quiz:</h1>
-      {Object.keys(temas).map((tema, index) => (
-        <button key={index} onClick={() => setTemaSelecionado(tema)}>
-          {tema}
-        </button>
-      ))}
+      {temaSelecionado === 'Redação' ? (
+        <>
+          <h1>Envie sua redação para correção:</h1>
+          <Redacao />
+          <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
+        </>
+      ) : temaSelecionado ? (
+        <>
+          <h1>Quiz: {temaSelecionado}</h1>
+          <Quiz perguntas={temas[temaSelecionado]} />
+          <button onClick={() => setTemaSelecionado(null)}>Voltar</button>
+        </>
+      ) : (
+        <>
+          <h1>Escolha um tema para começar o quiz:</h1>
+          {Object.keys(temas).map((tema, index) => (
+            <button key={index} onClick={() => setTemaSelecionado(tema)}>
+              {tema}
+            </button>
+          ))}
+        </>
+      )}
+
+      <div className="social-icons">
+        <a href="https://github.com/palomarocha" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="GitHub"
+            width="30"
+            height="30"
+          />
+        </a>
+        <a href="https://linkedin.com/in/paloma-rocha-amaral-02239031a/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="LinkedIn"
+            width="30"
+            height="30"
+          />
+        </a>
+      </div>
     </div>
   );
 }
