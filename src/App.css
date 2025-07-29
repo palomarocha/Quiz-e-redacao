@@ -220,6 +220,8 @@ button.false {
 
   .redacao-result {
     max-height: 200px;
+    max-width: 100vw;
+    overflow-x: hidden;
     font-size: 14px;
   }
 
@@ -261,12 +263,18 @@ button.false {
 
   .redacao-result {
     max-height: 150px;
+    max-width: 100vw;
+    overflow-x: hidden;
     font-size: 13px;
   }
 
   button {
     font-size: 0.9rem;
     padding: 7px 10px;
+  }
+
+  body {
+    min-height: auto;
   }
 
   .quiz h3 {
