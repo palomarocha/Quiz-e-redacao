@@ -16,7 +16,8 @@ body {
   justify-content: center;
   padding-top: 50px;
   box-sizing: border-box;
-  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 .App {
@@ -91,6 +92,7 @@ button.false {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
   box-sizing: border-box;
   overflow-wrap: break-word;
+  width: 100%;
 }
 
 .redacao-textarea {
@@ -158,6 +160,7 @@ button.false {
   overflow-y: auto;
   box-sizing: border-box;
   word-break: break-word;
+  width: 100%;
 }
 
 .redacao-error {
@@ -220,9 +223,9 @@ button.false {
 
   .redacao-result {
     max-height: 200px;
-    max-width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
     font-size: 14px;
+    overflow-x: hidden;
   }
 
   button {
@@ -263,9 +266,9 @@ button.false {
 
   .redacao-result {
     max-height: 150px;
-    max-width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
     font-size: 13px;
+    overflow-x: hidden;
   }
 
   button {
@@ -273,11 +276,11 @@ button.false {
     padding: 7px 10px;
   }
 
-  body {
-    min-height: auto;
-  }
-
   .quiz h3 {
     color: #000000;
+  }
+
+  body {
+    min-height: auto;
   }
 }
