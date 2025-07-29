@@ -39,5 +39,6 @@ Welcome to **Quiz & Essay**, a project lovingly built to support students throug
 ## 📌 Acesse o projeto | Access the project
 
 🔗 Confira aqui: https://quiz-e-redacao.vercel.app
+---
 🔗 Check it out here: https://quiz-e-redacao.vercel.app
 
