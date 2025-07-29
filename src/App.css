@@ -24,6 +24,7 @@ body {
   padding-left: 60px;
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 90px;
 }
 
 .App h1 {
@@ -35,9 +36,10 @@ body {
 
 button {
   color: #000000;
-  margin: 6px 0;
+  margin: 6px 10px;
   padding: 10px 15px;
   font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
   border: 2px solid #ccc;
   border-radius: 5px;
@@ -107,7 +109,7 @@ button.false {
   margin-top: 15px;
   padding: 10px 20px;
   background-color: #463B8C;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   font-family: 'poppins';
   border: none;
@@ -118,6 +120,7 @@ button.false {
 
 .redacao-button:hover:enabled {
   background-color: #362e6a;
+  color: #fff;
 }
 
 .redacao-button:disabled {
@@ -214,6 +217,18 @@ button.false {
 
   .quiz h3 {
     color: #000000;
+  }
+
+  .social-icons {
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 }
 

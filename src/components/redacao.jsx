@@ -13,18 +13,18 @@ function Redacao() {
         setResultado("");
 
         try {
-      const res = await fetch("http://localhost:4000/corrigir-basico", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ texto }),
-        });
+            const res = await fetch("/api/avaliarRedacao", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ texto }),
+            });
 
             if (!res.ok) throw new Error("Erro na requisição");
 
             const data = await res.json();
-            setResultado(data.correcao || "Nota: 0 - Redação não avaliada.");
+            setResultado(data.correcao || "Erro ao avaliar a redação.");
         } catch {
-            setResultado("Nota: 0 - Redação não avaliada.");
+            setResultado("Erro ao avaliar a redação.");
         } finally {
             setCarregando(false);
         }
