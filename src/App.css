@@ -15,13 +15,15 @@ body {
   font-family: 'poppins';
 }
 
-
 .App {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   padding: 20px;
   width: 60vw;
+  padding-left: 60px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .App h1 {
@@ -174,11 +176,11 @@ button.false {
   transform: scale(1.2);
 }
 
-
 @media screen and (max-width: 768px) {
   .App {
     width: 90vw;
     padding: 10px;
+    padding-left: 10px;
   }
 
   .App h1 {
