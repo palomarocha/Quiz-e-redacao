@@ -165,6 +165,9 @@ button.false {
   .redacao-textarea {
     height: 200px;
     font-size: 14px;
+    color: black !important;
+    background-color: white !important;
+    caret-color: black !important;
   }
 
   .redacao-result {
@@ -190,6 +193,9 @@ button.false {
 
   .redacao-textarea {
     height: 150px;
+    color: black !important;
+    background-color: white !important;
+    caret-color: black !important;
   }
 
   .redacao-result {
@@ -207,4 +213,3 @@ button.false {
     color: black !important;
   }
 }
-
