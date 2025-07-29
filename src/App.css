@@ -175,6 +175,11 @@ button.false {
   button {
     font-size: 0.9rem;
     padding: 8px 12px;
+    color: black !important;
+  }
+
+  .quiz h3 {
+    color: black !important;
   }
 }
 
@@ -195,5 +200,11 @@ button.false {
   button {
     font-size: 0.85rem;
     padding: 7px 10px;
+    color: black !important;
+  }
+
+  .quiz h3 {
+    color: black !important;
   }
 }
+
