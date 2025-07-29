@@ -49,7 +49,7 @@ function Redacao() {
             {resultado && (
                 <div className="redacao-result">
                     <h3>Correção:</h3>
-                    <pre>{resultado}</pre>
+                    <div className="redacao-resultado-texto">{resultado}</div>
                 </div>
             )}
         </div>

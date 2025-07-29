@@ -163,6 +163,14 @@ button.false {
   width: 100%;
 }
 
+.redacao-resultado-texto {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  width: 100%;
+}
+
 .redacao-error {
   margin-top: 10px;
   color: #d9534f;
