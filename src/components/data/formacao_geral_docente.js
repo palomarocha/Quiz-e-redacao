@@ -228,8 +228,7 @@ export const perguntas = [
       "Educação digital"
     ],
     respostaCorreta: 2
-  }
-  [
+  },
   {
     pergunta: "Qual é a principal função do método científico na educação?",
     opcoes: [
