@@ -584,5 +584,5 @@ export const perguntas = [
       "ECA"
     ],
     respostaCorreta: 1
-  },
+  }
 ];
