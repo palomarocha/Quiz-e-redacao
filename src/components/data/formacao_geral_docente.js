@@ -2,6 +2,7 @@ export const perguntas = [
   {
     pergunta: "Quem é o autor da Pedagogia do Oprimido?",
     opcoes: ["Jean Piaget", "John Dewey", "Paulo Freire", "Sócrates"],
+   ],
     respostaCorreta: 2
   },
   {
