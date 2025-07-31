@@ -173,8 +173,7 @@ export const perguntas = [
       "A política do MEC"
     ],
     respostaCorreta: 2
-  }
-  [
+  },
   {
     pergunta: "O que garante o direito à educação para pessoas com deficiência no Brasil?",
     opcoes: [
