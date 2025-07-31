@@ -578,6 +578,5 @@ export const perguntas = [
       "Avaliar só o desempenho final"
     ],
     respostaCorreta: 0
-  },
-  {
+  }
 ];
