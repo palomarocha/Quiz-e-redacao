@@ -580,5 +580,4 @@ export const perguntas = [
     ],
     respostaCorreta: 0
   }
-]
 ];
